@@ -132,8 +132,7 @@ public class DemowebshopTests extends TestBase {
     }
 
     @Test
-    @Tag("demowebshop")
-    @DisplayName("")
+    @DisplayName("Successful cart test (API + UI)")
     void addProductToCartWithCookieTest() {
         String authCookieValue = given()
                 .filter(withCustomTemplates())
